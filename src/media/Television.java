@@ -41,4 +41,11 @@ public class Television {
         this.turnOn = turnOn;
     }
     
+    public void showData(){
+        System.out.println("Current volume on TV is " + getVolume());
+        System.out.println("Current TV program number is  " + getCurrentProgram());
+        System.out.println("TV is on? " + getTurnOn());
+        System.out.println();
+    }
+    
 }
